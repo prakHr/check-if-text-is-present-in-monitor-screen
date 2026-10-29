@@ -84,6 +84,5 @@ def get_text_from_monitor_screen(block_width, block_height, is_text_present):
 if __name__ == "__main__":
     block_width, block_height = 1000, 1000
     is_text_present = "cls"
-    results = get_text_from_monitor_screen(block_width, block_height,
-is_text_present)
+    results = get_text_from_monitor_screen(block_width, block_height, is_text_present)
     print(results)
